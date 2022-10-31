@@ -811,7 +811,7 @@ function DataGrid<R, SR, K extends Key>(
       if (isCellAtLeftBoundary) {
         current.scrollLeft = (left - totalFrozenColumnWidth) * sign;
       } else if (isCellAtRightBoundary) {
-        current.scrollLeft = (right - clientWidth) * sign;
+        // current.scrollLeft = (right - clientWidth) * sign;
       }
     }
   }
